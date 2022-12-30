@@ -1,0 +1,68 @@
+*{
+box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("./img.2.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: -10rem;
+    padding: 2rem;
+
+}
+span {
+    font-size: 2rem;
+    font: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+   font-size: 4rem;
+    font-weight: normal;
+    margin: 1rem;
+    padding: 2rem;
+    /* background-color: azure; */
+    
+}
+
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+
+.big-text {
+    font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: azure;
+  /* display: flex;
+  flex-flow: initial; */
+  text-align: center;
+  display: flex;
+}
+
+.countdown-el {
+    text-align: center;
+}
